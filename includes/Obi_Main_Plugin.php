@@ -25,7 +25,7 @@ class Obi_Main_Plugin{
 
     public static function console_logging(){
 
-        echo '<script> console.log(" '. apply_filters('obi_console_message', 'Hola tres hola') .' ");</script>';
+        echo apply_filters('obi_console_message', 'Hola tres hola', 10);
 
     }
 
