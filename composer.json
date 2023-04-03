@@ -1,0 +1,19 @@
+{
+    "name": "obijuan/obi-learndash-redirect",
+    "description": "Redirect users to your course landing page",
+    "type": "wp-plugin",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Obi Juan",
+            "email": "hola@obijuan.dev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Obi_LearnDash_Redirect\\": "includes/"
+        }
+    }
+}
