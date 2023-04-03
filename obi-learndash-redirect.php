@@ -16,7 +16,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
-use Obi_Init as GlobalObi_Init;
 use Obi_LearnDash_Redirect\Obi_Main_Plugin;
 
 class Obi_Init{
@@ -49,11 +48,17 @@ class Obi_Init{
     
     }
 
+    public function load_obi_plugin(){
+
+        Obi_Main_Plugin::get_instance();
+
+    }
+
     public function activate(){
 
         // Here...
 
-        exit('Whatchadoo!');
+        //exit('Whatchadoo!');
 
     }
 
@@ -61,3 +66,4 @@ class Obi_Init{
 
 $obi_learndash_redirect = Obi_Init::get_instance();
 register_activation_hook( OBI_LEARNDASH_REDIRECT_FILE, array( $obi_learndash_redirect, 'activate' ) );
+add_action('plugins_loaded', array( $obi_learndash_redirect, 'load_obi_plugin' ) );
