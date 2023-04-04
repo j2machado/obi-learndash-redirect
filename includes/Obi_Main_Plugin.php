@@ -10,7 +10,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 class Obi_Main_Plugin{
 
     /**
-     * @var Single instance of this class
+     * @var Class 
+     * Single instance of this class
      */
     
      private static $instance;
