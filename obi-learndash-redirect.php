@@ -8,6 +8,7 @@ Author: Obi Juan
 Author URI: https://obijuan.dev
 License: GPLv2 or later
 Text-Domain: obi-learndash-redirect
+*   
 */
 
 if ( ! defined( 'ABSPATH' ) ) {

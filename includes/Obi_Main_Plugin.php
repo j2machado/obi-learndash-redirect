@@ -1,7 +1,9 @@
 <?php
 
 namespace Obi_LearnDash_Redirect;
-
+/**
+ * 
+ */
 // Avoid direct access.
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
