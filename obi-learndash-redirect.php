@@ -12,7 +12,7 @@ Text-Domain: obi-learndash-redirect
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
-  }
+}
 
 require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
@@ -54,11 +54,21 @@ class Obi_Init{
 
     }
 
+    public static function check_learndash_active(){
+
+        if( is_plugin_active( 'sfwd-lms/sfwd_lms.php' ) ){
+            return true;            
+        }
+
+        return false;
+
+    }
+
     public function activate(){
 
-        // Here...
-
-        //exit('Whatchadoo!');
+        if( ! self::check_learndash_active( ) ){
+            exit('Obi LearnDash Redirect requires LearnDash LMS plugin to be installed and activated on your website');
+        }
 
     }
 
