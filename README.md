@@ -1,10 +1,10 @@
 Obi LearnDash Redirect
 =
 
-Let's say you have a **closed course**, and payments controlled by WooCommerce.
-Let's also say that you have a **beautiful sales page** in place for your course with all the benefits your students get, and that **you don't want** unerolled users accessing the Single Course Page.
-Instead, you want them to easily reach your sales page.
-Obi LearnDash Redirect plugin helps you with that.
+Let's say you have a **closed course**, and payments controlled by WooCommerce.   
+Let's also say that you have a **beautiful sales page** in place for your course with all the benefits your students get, and that **you don't want** unerolled users accessing the Single Course Page.   
+Instead, you want them to easily reach your sales page.   
+Obi LearnDash Redirect plugin helps you with that.   
 
 
 Features:
