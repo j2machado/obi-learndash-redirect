@@ -9,7 +9,8 @@ Obi LearnDash Redirect plugin helps you with that.
 
 Features:
 -----------
-- Redirect users to the URL in the Button URL value stored on your course settings.
+- Course: Redirect users to the URL in the Button URL value stored on your Course settings.
+- Group: Redirect users to the URL in the Button URL value stored on your Group settings.
 
 
 Requirements
@@ -30,7 +31,8 @@ Installation
 To-Do
 -------------
 - Add support for external URLs
-- Add support for Groups.
+- ~~Add support for Groups.~~ [DONE]
 - Add an admin settings page to enable disable the redirect.
 - WooCommerce > Add the inverse feature. If a user is already enrolled in a course, and they click the WooCommerce product link, get redirected to the Single Course Page respectively.
 - Add the inverse feature for internal pages (not WooCommerce). 
+
