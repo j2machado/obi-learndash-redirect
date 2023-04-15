@@ -3,7 +3,7 @@
 Plugin Name: Obi LearnDash Redirect
 Plugin URI: https://obijuan.dev/obi-learndash-redirect
 Description: Redirect users to your course/group custom sales page.
-Version: 1.0.0
+Version: 1.2
 Author: Obi Juan
 Author URI: https://obijuan.dev
 License: GPLv2 or later
@@ -40,7 +40,7 @@ class Obi_Init{
 
     private function define_constants(){
      
-        define( 'OBI_LEARNDASH_REDIRECT_VERSION', '1.0.0' );
+        define( 'OBI_LEARNDASH_REDIRECT_VERSION', '1.2' );
         define( 'OBI_LEARNDASH_REDIRECT_TEXTDOMAIN', 'obi-learndash-redirect');
         define( 'OBI_LEARNDASH_REDIRECT_DIRNAME', plugin_basename( dirname(__FILE__) ) );
         define( 'OBI_LEARNDASH_REDIRECT_FILE', __FILE__);
