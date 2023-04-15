@@ -18,6 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
 use Obi_LearnDash_Redirect\Obi_Main_Plugin;
+use Obi_LearnDash_Redirect\Redirect_Groups;
 
 class Obi_Init{
 
@@ -52,6 +53,8 @@ class Obi_Init{
     public function load_obi_plugin(){
 
         Obi_Main_Plugin::get_instance();
+        Redirect_Groups::get_instance();
+        //exit();
 
     }
 

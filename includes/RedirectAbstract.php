@@ -2,13 +2,13 @@
 
 namespace Obi_LearnDash_Redirect;
 
-abstract class redirectAbstract{
+abstract class RedirectAbstract{
 
-    protected static $courseOptionsSerialized;
+    protected static $OptionsSerialized;
 
-    protected static $courseAccessMode;
+    protected static $AccessMode;
 
-    protected static $courseButtonURL;
+    protected static $ButtonURL;
 
 
     public function __construct(){
@@ -27,7 +27,7 @@ abstract class redirectAbstract{
 
     }
 
-    protected static function redirectTheEndUser(){
+    public function redirectTheEndUser(){
 
         
 
